@@ -7,14 +7,14 @@ src_suffix: "</s>"
 tgt_suffix: ""
 
 #### Subword
-src_subword_model: "/Users/borisjost/Documents/OpenNMT-try/nllb-200/flores200_sacrebleu_tokenizer_spm.model"
-tgt_subword_model: "/Users/borisjost/Documents/OpenNMT-try/nllb-200/flores200_sacrebleu_tokenizer_spm.model"
+src_subword_model: "./nllb-200/flores200_sacrebleu_tokenizer_spm.model"
+tgt_subword_model: "./nllb-200/flores200_sacrebleu_tokenizer_spm.model"
 src_subword_nbest: 1
 src_subword_alpha: 0.0
 tgt_subword_nbest: 1
 tgt_subword_alpha: 0.0
 # Model info
-model: "/Users/borisjost/Documents/OpenNMT-try/nllb-200/nllb-200-600M-onmt.pt"
+model: "./nllb-200/nllb-200-600M-onmt.pt"
 # Inference
 max_length: 512
 gpu: 0
